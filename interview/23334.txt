@@ -1,0 +1,57 @@
+
+list.stream().filter(i ->number%i==0).collect(Colllector.asList())
+
+forEach(i-> system.out.print("prime no"+n))
+
+
+list.add(0,1);
+
+list.set(0,number);
+
+
+contrller advice 
+
+error 
+
+string errorCode;
+string errorMsg;
+
+
+
+@excptionhandler    extend runtime exception
+
+     mexception(new errror ,e
+
+
+@mockiject
+contrlller clr ;
+
+@Mock 
+logger log
+
+@Mock 
+Serviceclass servie ;
+
+@Before
+pblic void innit(){
+
+
+
+
+
+}
+
+
+
+
+@Test
+
+public void testMtcontrller {
+
+Response 
+
+Mocokito.when(service.getmethod(moctiko.anyString()).thenRetrun
+
+
+
+

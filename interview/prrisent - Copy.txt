@@ -1,0 +1,30 @@
+list<emp> emplst = new ArrayList<>.();
+
+
+emplst.stream().e -> e.getsalary()).Collector.groupingBy(emp.getEmpName());
+
+forEach(sysout("name)
+
+
+
+
+ void  static sum(int n){
+
+n= 455;  4+5+5;  a[0]+a[1]+a[2]
+
+
+
+int sum = 0;
+
+
+for(int i=0 ;i<n;i++)
+{
+
+  sum =   sum+i;
+  
+
+
+
+}
+
+}

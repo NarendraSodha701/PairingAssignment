@@ -1,0 +1,6 @@
+why not use singleton
+why not use sychronie 
+wt shd be the scope of my class
+cyclometric complxity
+exaception 
+what is contextual errors

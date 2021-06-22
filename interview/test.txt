@@ -1,0 +1,14 @@
+
+
+list.stream().filter(emp -> (emp.getAge()>30  && emp.getSalary()>30000).colllect(Collector.aslist())
+
+
+
+checkPain(){
+
+String s;
+int forward ;
+int backward;
+if(forward==backward){
+return true; 
+}

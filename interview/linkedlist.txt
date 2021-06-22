@@ -1,0 +1,87 @@
+String = "sdfsdgdfgh";
+
+String str = "" maxword = "",minword = "";
+
+int length = 0;
+
+String[] wd = new String[];
+
+
+str  =Str+"";
+
+for(int i = 0;i<str.length();i++)
+{
+
+if(!str.CharAt(i)=''){
+
+
+  wd   =  wd+str.CharAt(i);
+
+
+}
+
+else{
+
+          wd[length] =wd;
+          length++;
+
+        
+    
+        wd    = "";
+
+}
+
+
+maxword = wd[0];
+
+for(int j = 0;j<length();j++)
+{
+
+if(minword.lenth()>wd[j].lenth()){
+  
+min = wd[j];
+
+}
+
+
+
+
+if(max.lenth()<wd[j].lenth()){
+  
+max= wd[j];
+
+}
+               
+
+   static linkedlist(int data,linkeList list){
+   
+    Node node = new Node(data);
+   
+    list.head = node ;
+
+
+
+
+
+
+    Node last = list.head;
+    while(list.next!=null){
+   last = list.next
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

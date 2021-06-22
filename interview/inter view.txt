@@ -1,0 +1,127 @@
+@entity("")   schema = ""
+public class user{
+
+
+@id
+@GenertatedType.auto
+private int userKey;
+
+private Integer creditPoints;
+
+
+
+private String name ;
+
+
+@oneTomany()
+Rewards rewards;
+
+getter and setters
+
+ toString()
+
+
+
+
+
+@entity("")   schema = ""
+public class rewards{
+
+
+@id
+@GenertatedType.auto
+private int id
+
+private String rewards ;
+
+manyToOne
+joincoloumn (userKey)
+user user ;
+
+
+
+getter and setters
+
+ toString()
+
+list rewards
+
+
+
+
+@Repo
+
+interface userRepo implement JpaRepo(User,Long){
+
+
+}
+
+
+
+@Repo
+
+interface rewards implement JpaRepo(Rewards,Long){
+
+
+  Rewards findByUserKey(Long userKey);
+
+}
+
+1,5 
+2,2
+6,3
+7,9
+
+
+userList.Stream().sorted(Camprtor.campring( u->u.getCreditPoint())).filter(u->(u.getId>3). u->u.getCreditPoint()+10.collect(Collector.summingingInt(integer::IntValue)
+
+
+class IPLTeam {
+
+public int totalscore = 0;
+  void tagline() {
+    System.out.println(“One team will win the trophy”);
+  }
+}
+class Rcb extends IPLTeam {
+public int totalscore = 1;
+  void tagline() {System.out.println(“PlayBold”); }
+  void logo() {System.out.println(“RCB”);}
+}
+main() {
+    IPLTeam team = new Rcb();
+    team.tagline();
+    System.out.println(IPLTeam .tolalScore);
+   
+    
+}
+
+
+String str = new String("myname");
+str.toUpperCase();
+System.out.println(str);
+myname
+
+
+
+interface A{
+
+default c();
+}
+
+interface B{
+
+default c();
+}
+
+
+class Z imple a,b
+{
+    A::C();
+    B::C():
+}
+
+
+null;
+
+
